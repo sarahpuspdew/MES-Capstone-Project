@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
-    [SerializeField] float transitionTime = 0.25f;
-
+    [SerializeField] float transitionTime = 1f;
+    
     public void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
