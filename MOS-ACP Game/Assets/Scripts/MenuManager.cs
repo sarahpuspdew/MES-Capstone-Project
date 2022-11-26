@@ -9,18 +9,6 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
-    //public TMP_InputField inputField;
-    //public string playerName;
-
-    public void StartGame()
-    {
-       SceneManager.LoadScene(1);
-    }
-
-    public void CreditGame()
-    {
-        Debug.Log("Credit: List of the game creator");
-    }
 
     public void QuitGame()
     {
