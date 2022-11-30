@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class PromptManager : MonoBehaviour
+public class InfoManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI nameText;
     [SerializeField] TextMeshProUGUI promptText;
