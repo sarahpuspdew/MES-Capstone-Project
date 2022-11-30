@@ -7,23 +7,23 @@ using TMPro;
 public class InfoManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI nameText;
-    [SerializeField] TextMeshProUGUI promptText;
-    [SerializeField] RectTransform promptPanel;
+    [SerializeField] TextMeshProUGUI infoText;
+    [SerializeField] RectTransform infoPanel;
     [SerializeField] float typingSpeed = 0f;
-    [SerializeField] Animator animator;
+    //[SerializeField] Animator animator;
     Queue<string> sentences;
 
     private void Start()
     {
         sentences = new Queue<string>();
-        //promptPanel.localScale = new Vector3(0, 0);
+        infoPanel.localScale = new Vector3(0, 0);
     }
 
     public void StartPrompt(Prompt prompt)
     {
-        animator.SetBool("isOpen", true);
-        //Time.timeScale = 0;
-        //promptPanel.localScale = new Vector3(0.9f, 0.35f);
+        //animator.SetBool("isOpen", true);
+        Time.timeScale = 0;
+        infoPanel.localScale = new Vector3(1f, 0.5f);
         //nameText.text = prompt.name;
 
         sentences.Clear();
@@ -49,17 +49,17 @@ public class InfoManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
-        promptText.text = "";
+        infoText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
-            promptText.text += letter;
+            infoText.text += letter;
             yield return new WaitForSecondsRealtime(typingSpeed);
         }
     }
 
     void EndPrompt()
     {
-        animator.SetBool("isOpen", false);
-        //Time.timeScale = 1;
-        //promptPanel.localScale = new Vector3(0, 0);
+        //animator.SetBool("isOpen", false);
+        Time.timeScale = 1;
+        infoPanel.localScale = new Vector3(0, 0);
     }
 }
