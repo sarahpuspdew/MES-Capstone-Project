@@ -56,7 +56,7 @@ public class PromptManager : MonoBehaviour
         }
     }
 
-    void EndPrompt()
+    public void EndPrompt()
     {
         animator.SetBool("isOpen", false);
         //Time.timeScale = 1;
