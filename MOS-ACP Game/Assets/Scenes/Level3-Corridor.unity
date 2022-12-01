@@ -1538,7 +1538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398457508}
   - component: {fileID: 398457507}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PhotoFrame2020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3366,7 +3366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606592523}
   - component: {fileID: 606592524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FramePoster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5758,7 +5758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848498490}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -711.7, y: -512.58, z: 32.4}
+  m_LocalPosition: {x: -711.7, y: -512.58, z: 5.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6535,7 +6535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087847384}
   - component: {fileID: 1087847383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PhotoFrame2021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10293,6 +10293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorNextScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1457838970446620, guid: 54fc4a62ccb7e304f910c5444e778f6b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4895514858376750, guid: 54fc4a62ccb7e304f910c5444e778f6b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -10527,7 +10531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1720349356}
   - component: {fileID: 1720349355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PhotoFrame2019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
