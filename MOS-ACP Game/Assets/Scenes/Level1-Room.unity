@@ -4333,6 +4333,17 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1718152195 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 16462425421477560, guid: 45ca7a84b295ca846bcd6ea76e0edb11, type: 3}
+  m_PrefabInstance: {fileID: 276782334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef648ca27cf9f6248bd87e674eae71ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1776418172
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,6 +5134,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1582950185}
         m_TargetAssemblyTypeName: PhotoFrame, Assembly-CSharp
         m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1718152195}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadNextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
