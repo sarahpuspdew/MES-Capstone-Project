@@ -19,22 +19,6 @@ public class PromptManager : MonoBehaviour
         //promptPanel.localScale = new Vector3(0, 0);
     }
 
-    public void StartPrompt(Prompt prompt)
-    {
-        animator.SetBool("isOpen", true);
-        //Time.timeScale = 0;
-        //promptPanel.localScale = new Vector3(0.9f, 0.35f);
-        //nameText.text = prompt.name;
-
-        sentences.Clear();
-
-        foreach (string sentence in prompt.sentences) {
-            sentences.Enqueue(sentence);
-        }
-
-        DisplayNextSentence();
-    }
-
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0) {
@@ -54,6 +38,22 @@ public class PromptManager : MonoBehaviour
             promptText.text += letter;
             yield return new WaitForSecondsRealtime(typingSpeed);
         }
+    }
+
+    public void StartPrompt(Prompt prompt)
+    {
+        animator.SetBool("isOpen", true);
+        //Time.timeScale = 0;
+        //promptPanel.localScale = new Vector3(0.9f, 0.35f);
+        //nameText.text = prompt.name;
+
+        sentences.Clear();
+
+        foreach (string sentence in prompt.sentences) {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
     }
 
     public void EndPrompt()
