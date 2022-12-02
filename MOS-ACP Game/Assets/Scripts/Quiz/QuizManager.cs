@@ -15,11 +15,12 @@ public class QuizManager : MonoBehaviour
     }
 
     [SerializeField] GameObject[] options;
-    //[SerializeField] GameObject quizPanel;
+    [SerializeField] GameObject quizPanel;
+    [SerializeField] GameObject barcodePanel;
     [SerializeField] TMP_Text questionText;
     [SerializeField] TMP_Text scoreText;
     [SerializeField] int currentQuestion;
-    [SerializeField] PromptManager promptManager;
+    //[SerializeField] PromptManager promptManager;
     int totalQuestions;
     int score;
 
@@ -38,8 +39,9 @@ public class QuizManager : MonoBehaviour
     
     void EndQnA()
     {
-        promptManager.EndPrompt();
-        //quizPanel.SetActive(false);
+        //promptManager.EndPrompt();
+        quizPanel.SetActive(false);
+        barcodePanel.SetActive(true);
     }
 
     public void Correct()
