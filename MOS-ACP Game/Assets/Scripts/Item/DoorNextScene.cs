@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorNextScene : MonoBehaviour, IInteractable
 {
-    [SerializeField] GameObject descPanel;
+    //[SerializeField] GameObject descPanel;
     [SerializeField] LevelLoader levelLoader;
     [SerializeField] string prompt;
     [SerializeField] int neededItems;

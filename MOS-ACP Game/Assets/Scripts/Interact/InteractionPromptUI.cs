@@ -6,7 +6,7 @@ using TMPro;
 public class InteractionPromptUI : MonoBehaviour
 {
     [SerializeField] GameObject uiPanel;
-    [SerializeField] TextMeshProUGUI promptText;
+    //[SerializeField] TextMeshProUGUI promptText;
     Camera mainCam;
 
     public bool isDisplayed = false;
@@ -25,7 +25,7 @@ public class InteractionPromptUI : MonoBehaviour
 
     public void SetUp(string prompt)
     {
-        promptText.text = prompt;
+        //promptText.text = prompt;
         uiPanel.SetActive(true);
         isDisplayed = true;
     }

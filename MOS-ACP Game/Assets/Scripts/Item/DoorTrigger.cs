@@ -6,7 +6,7 @@ using DG.Tweening;
 public class DoorTrigger : MonoBehaviour
 {
     [SerializeField] GameObject door;
-    int count = 0;
+    [SerializeField] int count = 0;
 
     bool isOpened = false;
 
