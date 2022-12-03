@@ -67,7 +67,8 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < options.Length; i++)
         {
-            options[i].GetComponent<Image>().color = options[i].GetComponent<Answers>().startColor;
+            //options[i].GetComponent<Image>().color = options[i].GetComponent<Answers>().startColor;
+            options[i].GetComponent<Image>().sprite = options[i].GetComponent<Answers>().startImage;
             options[i].GetComponent<Answers>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = questions[currentQuestion].answers[i];
 
