@@ -9,7 +9,8 @@ public class Door : MonoBehaviour
     {
         x,
         y,
-        z
+        z,
+        xz
     }
 
     [SerializeField] float targetPos;
@@ -35,6 +36,10 @@ public class Door : MonoBehaviour
             case Direction.z :
                 this.transform.DOMoveZ(targetPos, duration).SetEase(Ease.Linear);
                 break;
+            case Direction.xz :
+                this.transform.DOMoveZ(targetPos, duration).SetEase(Ease.Linear);
+                this.transform.DOMoveX(targetPos, duration).SetEase(Ease.Linear);
+                break;
         }
     }
 
@@ -50,6 +55,10 @@ public class Door : MonoBehaviour
             case Direction.z :
                 this.transform.DOMoveZ(originalPos, duration).SetEase(Ease.Linear);
                 break;
+            case Direction.xz :
+                this.transform.DOMoveZ(targetPos, duration).SetEase(Ease.Linear);
+                this.transform.DOMoveX(targetPos, duration).SetEase(Ease.Linear);
+                break;
         }
     }
 
@@ -62,6 +71,10 @@ public class Door : MonoBehaviour
             originalPos = transform.position.y;
         }
         if (dir == Direction.z) {
+            originalPos = transform.position.z;
+        }
+        if (dir == Direction.xz) {
+            originalPos = transform.position.x;
             originalPos = transform.position.z;
         }
     }
