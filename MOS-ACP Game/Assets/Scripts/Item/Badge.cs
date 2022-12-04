@@ -5,7 +5,7 @@ using UnityEngine;
 public class Badge : MonoBehaviour
 {
     float speed = 50.0f;
-    public PromptTrigger promptTrigger;
+    public InfoTrigger infoTrigger;
 
     private void FixedUpdate()
     {
@@ -18,7 +18,7 @@ public class Badge : MonoBehaviour
 
         if (playerInventory != null) {
             playerInventory.BadgeCollected();
-            promptTrigger.TriggerPrompt();
+            infoTrigger.TriggerInfo();
             gameObject.SetActive(false);
         }
     }

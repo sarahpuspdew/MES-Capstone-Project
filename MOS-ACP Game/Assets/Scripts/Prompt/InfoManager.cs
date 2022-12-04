@@ -24,7 +24,7 @@ public class InfoManager : MonoBehaviour
         //animator.SetBool("isOpen", true);
         Time.timeScale = 0;
         infoPanel.localScale = new Vector3(1f, 0.5f);
-        //nameText.text = prompt.name;
+        nameText.text = prompt.name;
 
         sentences.Clear();
 

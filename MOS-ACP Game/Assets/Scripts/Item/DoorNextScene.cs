@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorNextScene : MonoBehaviour, IInteractable
 {
-    //[SerializeField] GameObject descPanel;
+    [SerializeField] PromptTrigger promptTrigger;
     [SerializeField] LevelLoader levelLoader;
     [SerializeField] string prompt;
     [SerializeField] int neededItems;
@@ -19,8 +19,8 @@ public class DoorNextScene : MonoBehaviour, IInteractable
             levelLoader.LoadNextLevel();
         }
         else {
-            Debug.Log("Collect more badge!!");
-            //descPanel.SetActive(true);
+            //Debug.Log("Collect more badge!!");
+            promptTrigger.TriggerPrompt();
             return true;
         }
         return false;
