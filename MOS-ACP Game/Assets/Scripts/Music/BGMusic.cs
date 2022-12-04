@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
  
-public class BGmusic : MonoBehaviour
+public class BGMusic : MonoBehaviour
 {
-    public static BGmusic instance;
+    public static BGMusic instance;
+    [SerializeField] Slider volumeSlider;
  
     void Awake()
     {
@@ -15,5 +17,10 @@ public class BGmusic : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+    }
+
+    public void ChangeVolume()
+    {
+        AudioListener.volume = volumeSlider.value;
     }
 }
