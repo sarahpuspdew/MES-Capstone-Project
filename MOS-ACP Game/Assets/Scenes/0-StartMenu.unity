@@ -3886,7 +3886,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Project Leader
 
-    Game Programmer'
+    Game Programmer
+
+    Technical Artist'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
   m_sharedMaterial: {fileID: 5317726572136376820, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
@@ -4230,7 +4232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1621302440
 RectTransform:
   m_ObjectHideFlags: 0

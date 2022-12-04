@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float gravityModifier;
 
     Rigidbody playerRb;
-    //Animator playerAnim;
+    Animator playerAnim;
     bool facingRight;
     bool grounded = false;
     bool isOnGround = false;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        //playerAnim = GetComponent<Animator>();
+        playerAnim = GetComponent<Animator>();
         Physics.gravity *= gravityModifier;
         facingRight = true;    
     }
@@ -27,18 +27,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
             isOnGround = false;
-            //playerAnim.SetTrigger("Jump");
+            playerAnim.SetTrigger("jump");
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
         if (isOnGround) {
-            //playerAnim.SetBool("isGrounded", true);
+            playerAnim.SetBool("isGrounded", true);
         }
     }
 
     void FixedUpdate()
     {
         float move = Input.GetAxis("Horizontal");
-        //playerAnim.SetFloat("speed", Mathf.Abs(move));
+        playerAnim.SetFloat("speed", Mathf.Abs(move));
         playerRb.velocity = new Vector3(0, playerRb.velocity.y, move * speed);
 
         if (move > 0 && !facingRight) {
@@ -62,13 +62,13 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionExit(Collision other)
     {
         if (other.gameObject.CompareTag("Pushable")) {
-            //playerAnim.SetTrigger("exitPush");
+            playerAnim.SetTrigger("exitPush");
         }
     }
 
     void Push()
     {
-        //playerAnim.SetTrigger("Push");
+        playerAnim.SetTrigger("push");
     }
 
     private void Flip()
