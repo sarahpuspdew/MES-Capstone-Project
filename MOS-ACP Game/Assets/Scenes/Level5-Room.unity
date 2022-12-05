@@ -700,7 +700,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1776418173}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &481691948
 PrefabInstance:
@@ -1466,7 +1466,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1776418173}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: -30, z: 0}
 --- !u!1001 &785062413
 PrefabInstance:
@@ -1790,7 +1790,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1776418173}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 2, y: -90, z: 0}
 --- !u!1 &1034199377
 GameObject:
@@ -1909,8 +1909,11 @@ MonoBehaviour:
   prompt:
     name: 
     sentences:
-    - asdfasdfasdfasdfasdf
-    - asdfasdfasdfasdfasdfsdfasdfasdfasdf
+    - Duh aku ga sengaja tertidur, cukup melelahkan petualangan dalam mimpi tadi
+    - Aku sepertinya harus mengikuti lomba ini
+    - Informasi tadi meningkatkan rasa percaya diriku untuk mengikuti MOS ACP National
+      Championship 2023
+    - Untuk mengharumkan nama indonesia di mata internasional
 --- !u!1001 &1071076550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3052,6 +3055,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 276782335}
+  - {fileID: 1735909575}
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 460641474}
@@ -3063,11 +3067,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1776418173}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f2f42ef04f3da9a49b9b3f3c654eaa32, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f2f42ef04f3da9a49b9b3f3c654eaa32, type: 3}
       propertyPath: m_LocalScale.x
