@@ -2981,8 +2981,17 @@ MonoBehaviour:
   prompt:
     name: 
     sentences:
-    - asdfasdfasdfasdfasdf
-    - asdfasdfasdfasdfasdfsdfasdfasdfasdf
+    - Tahun 2022 tidak terasa akan berakhir
+    - Saatnya melakukan perubahan untuk meningkatkan softskill dan intelektualku
+      di tahun 2023
+    - Kemarin setalah aku mencari-cari informasi...
+    - Myedusolve adalah solusi tepat untuk bekalku di masa depan
+    - Terutama meningkatkan kualitas tenaga kerja di Indonesia melalui sertifikasi
+      internasional
+    - Tidak hanya itu, terdapat event perlombaan bergengsi yakni championship yang
+      bekerja sama dengan certiport
+    - Hmm... baiklah saat nya aku mencari tahu lebih lanjut terkait informasi myedusolve
+      dan championship
 --- !u!1 &1034806737
 GameObject:
   m_ObjectHideFlags: 0
