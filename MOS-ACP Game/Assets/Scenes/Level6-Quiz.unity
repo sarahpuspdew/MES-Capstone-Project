@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &166956737
 RectTransform:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &442280380
 RectTransform:
   m_ObjectHideFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &576075476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1414,10 +1414,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Terima kasih telah memainkan game kami!
+  m_text: 'Sebelum menuju ke link registrasi kamu harus menjawab quiz ini, untuk
+    mengingatkan kamu akan informasi yang sudah kamu kumpulkan.
 
-    Untuk menguji pengetahuan
-    anda, klik start untuk memulai quiz'
+    Klik start untuk
+    memulai quiz!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
   m_sharedMaterial: {fileID: 5317726572136376820, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
@@ -2158,20 +2159,74 @@ MonoBehaviour:
   scoreText: {fileID: 1421353010}
   currentQuestion: 0
   questions:
-  - question: this is a question
+  - question: Kapan Registrasi MOS National Championship 2023 dilaksanakan?
     answers:
-    - 1
-    - 2
-    - right
-    - 3
-    correctAnswer: 3
-  - question: this is a question 2
-    answers:
-    - right
-    - 1
-    - 2
-    - 3
+    - 19/09/2022 - 09/02/2023
+    - 25/09/2022 - 09/01/2021
+    - 01/01/2023 - 30/01/2023
+    - 19/09/2023 - 09/02/2024
     correctAnswer: 1
+  - question: Kapan Registrasi ACP Nasional Championship 2023 dilaksanakan?
+    answers:
+    - 25/09/2022- 17/02/2022
+    - 09/09/2022 - 17/02/2022
+    - 19/09/2022 - 25/12/2022
+    - 17/09/2023 - 09/02/2024
+    correctAnswer: 2
+  - question: Pernyataan yang benar mengenai Syarat dan Ketentuan untuk mengikuti
+      MOS ACP National Championship 2023
+    answers:
+    - Tidak memiliki 1 sertifikasi MOS/ACP
+    - Memiliki 1 sertifikasi terkait MOS/ACP
+    - Memiliki skill komunikasi untuk bisnis
+    - Memiliki sertifikasi terkait IT Specialist
+    correctAnswer: 2
+  - question: Pada tahun berapa MES didirikan dan tahun berapa MOS ACP Championship
+      dilaksanakan?
+    answers:
+    - 2019 dan 2018
+    - 2020 dan 2019
+    - 2018 dan 2020
+    - 2019 dan 2019
+    correctAnswer: 4
+  - question: Manakah interest yang kamu dapatkan saat berkompeten pada bidang adobe
+      illustrator?
+    answers:
+    - Creative Writing
+    - Advertising
+    - Illustration
+    - Data Analytic
+    correctAnswer: 3
+  - question: Manakah yang bukan kategori ACP Championship nasional untuk bersaing?
+    answers:
+    - Adobe After Effect
+    - Adobe Indesign
+    - Adobe Photoshop
+    - Adobe Illustrator
+    correctAnswer: 1
+  - question: Manakah yang bukan kategori MOS Championship nasional untuk bersaing?
+    answers:
+    - Microsoft Power Point
+    - Microsoft Excel
+    - Microsoft Word
+    - Microsoft Outlook
+    correctAnswer: 4
+  - question: Manakah interest yang kamu dapatkan saat berkompeten pada bidang Microsoft
+      Office Excel
+    answers:
+    - 'Statistik '
+    - Creative Thinking
+    - Copywriting
+    - Media & Publishing
+    correctAnswer: 1
+  - question: 'Berapakah usia minimal dan maksimal untuk mendaftar ACP-MOS Championship
+      National? '
+    answers:
+    - 17-25 th
+    - 13-22 th
+    - 21-30 th
+    - 15-20 th
+    correctAnswer: 2
   - question: this is a question 3
     answers:
     - 1
@@ -2617,7 +2672,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
