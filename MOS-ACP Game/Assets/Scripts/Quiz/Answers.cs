@@ -10,7 +10,6 @@ public class Answers : MonoBehaviour
     public Sprite startImage;
     public Sprite correctImage;
     public Sprite falseImage;
-    public Color startColor;
 
     void Start()
     {
@@ -20,13 +19,11 @@ public class Answers : MonoBehaviour
     public void Answer()
     {
         if (isCorrect) {
-            //GetComponent<Image>().color = Color.green;
             GetComponent<Image>().sprite = correctImage; 
             Debug.Log("Correct Answer");
             quizManager.Correct();
         }
         else {
-            //GetComponent<Image>().color = Color.red;
             GetComponent<Image>().sprite = falseImage; 
             Debug.Log("Wrong Answer");
             quizManager.Wrong();

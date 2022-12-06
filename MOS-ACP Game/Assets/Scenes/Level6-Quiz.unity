@@ -575,7 +575,6 @@ MonoBehaviour:
   startImage: {fileID: 21300000, guid: 81cfa67950c5a5a4d88917e32f981d9f, type: 3}
   correctImage: {fileID: 21300000, guid: eb0152c46f2ae734faab363f76e4690c, type: 3}
   falseImage: {fileID: 21300000, guid: 0aef1764b6eebb94298dc24884851483, type: 3}
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &576075475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1711,7 @@ RectTransform:
   m_Children:
   - {fileID: 442280380}
   m_Father: {fileID: 1466594314}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2167,7 +2166,7 @@ RectTransform:
   m_Children:
   - {fileID: 166956737}
   m_Father: {fileID: 1466594314}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2569,8 +2568,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 907918163}
-  - {fileID: 1156487387}
   - {fileID: 1326385934}
+  - {fileID: 1156487387}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2613,6 +2612,8 @@ MonoBehaviour:
   questionText: {fileID: 1688220242}
   scoreText: {fileID: 1421353010}
   currentQuestion: 0
+  correctSound: {fileID: 8300000, guid: 24e73f60fc9161d41b7dbc8653b64ec3, type: 3}
+  wrongSound: {fileID: 8300000, guid: da0182cdf0cf4c84fb7859e610876087, type: 3}
   questions:
   - question: Kapan Registrasi MOS National Championship 2023 dilaksanakan?
     answers:
@@ -2989,7 +2990,6 @@ MonoBehaviour:
   startImage: {fileID: 21300000, guid: 81cfa67950c5a5a4d88917e32f981d9f, type: 3}
   correctImage: {fileID: 21300000, guid: eb0152c46f2ae734faab363f76e4690c, type: 3}
   falseImage: {fileID: 21300000, guid: 0aef1764b6eebb94298dc24884851483, type: 3}
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1653843567
 GameObject:
   m_ObjectHideFlags: 0
@@ -3902,7 +3902,6 @@ MonoBehaviour:
   startImage: {fileID: 21300000, guid: 81cfa67950c5a5a4d88917e32f981d9f, type: 3}
   correctImage: {fileID: 21300000, guid: eb0152c46f2ae734faab363f76e4690c, type: 3}
   falseImage: {fileID: 21300000, guid: 0aef1764b6eebb94298dc24884851483, type: 3}
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2036236984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,4 +4054,3 @@ MonoBehaviour:
   startImage: {fileID: 21300000, guid: 81cfa67950c5a5a4d88917e32f981d9f, type: 3}
   correctImage: {fileID: 21300000, guid: eb0152c46f2ae734faab363f76e4690c, type: 3}
   falseImage: {fileID: 21300000, guid: 0aef1764b6eebb94298dc24884851483, type: 3}
-  startColor: {r: 0, g: 0, b: 0, a: 0}

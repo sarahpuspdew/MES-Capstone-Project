@@ -20,7 +20,8 @@ public class QuizManager : MonoBehaviour
     [SerializeField] TMP_Text questionText;
     [SerializeField] TMP_Text scoreText;
     [SerializeField] int currentQuestion;
-    //[SerializeField] PromptManager promptManager;
+    public AudioClip correctSound;
+    public AudioClip wrongSound;
     int totalQuestions;
     int score;
 
@@ -46,6 +47,7 @@ public class QuizManager : MonoBehaviour
 
     public void Correct()
     {
+        AudioSource.PlayClipAtPoint(correctSound, transform.position);
         score += 1;
         questions.RemoveAt(currentQuestion);
         StartCoroutine(WaitForNext());
@@ -53,6 +55,7 @@ public class QuizManager : MonoBehaviour
 
     public void Wrong()
     {
+        AudioSource.PlayClipAtPoint(wrongSound, transform.position);
         questions.RemoveAt(currentQuestion);
         StartCoroutine(WaitForNext());
     }
@@ -67,7 +70,6 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < options.Length; i++)
         {
-            //options[i].GetComponent<Image>().color = options[i].GetComponent<Answers>().startColor;
             options[i].GetComponent<Image>().sprite = options[i].GetComponent<Answers>().startImage;
             options[i].GetComponent<Answers>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = questions[currentQuestion].answers[i];
