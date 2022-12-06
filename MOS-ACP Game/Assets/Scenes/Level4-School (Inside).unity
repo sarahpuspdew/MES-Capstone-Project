@@ -8580,7 +8580,7 @@ Transform:
   - {fileID: 1196291809}
   - {fileID: 766200313}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &413299710
 PrefabInstance:
@@ -12859,6 +12859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 599967066}
 --- !u!135 &599967063
 SphereCollider:
@@ -18830,6 +18831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 868286902}
 --- !u!135 &868286900
 SphereCollider:
@@ -28693,6 +28695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 1320274518}
 --- !u!212 &1320274517
 SpriteRenderer:
@@ -38432,6 +38435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 1838505839}
 --- !u!135 &1838505837
 SphereCollider:
@@ -39468,6 +39472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 1883464694}
 --- !u!1001 &1886930504
 PrefabInstance:
@@ -40286,7 +40291,7 @@ Transform:
   - {fileID: 1858077096}
   - {fileID: 906828843}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1907185740
 PrefabInstance:
@@ -41795,6 +41800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  badgePickUpSound: {fileID: 0}
   infoTrigger: {fileID: 1988312832}
 --- !u!135 &1988312829
 SphereCollider:

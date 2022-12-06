@@ -18,7 +18,7 @@ public class Badge : MonoBehaviour
         PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
 
         if (playerInventory != null) {
-            AudioSource.PlayClipAtPoint(badgePickUpSound, -transform.position, 0.5f);
+            AudioSource.PlayClipAtPoint(badgePickUpSound, -transform.position, 1f);
             playerInventory.BadgeCollected();
             infoTrigger.TriggerInfo();
             gameObject.SetActive(false);
