@@ -2374,13 +2374,13 @@ MonoBehaviour:
     - 21-30 th
     - 15-20 th
     correctAnswer: 2
-  - question: this is a question 3
+  - question: MOS ACP National Championship diadakan secara/dimana
     answers:
-    - 1
-    - 12
-    - 23
-    - right
-    correctAnswer: 4
+    - Online
+    - Offline
+    - Jakarta
+    - Orlando
+    correctAnswer: 1
 --- !u!4 &1529145005
 Transform:
   m_ObjectHideFlags: 0
