@@ -24,5 +24,11 @@ public class GameManager : MonoBehaviour
         levelLoader.RestartLevel();
     }
 
+    public void MainMenu()
+    {
+        Time.timeScale = 1;
+        levelLoader.MainMenu();
+    }
+
 
 }
