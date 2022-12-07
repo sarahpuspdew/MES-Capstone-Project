@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] LevelLoader levelLoader;
     public void Pause()
     {
         Time.timeScale = 0;
@@ -17,9 +18,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void RestartLevel()
+    public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
+        levelLoader.RestartLevel();
     }
 
 

@@ -10629,6 +10629,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac34514f95c28e4e935718212ed233c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onBadgeCollected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &1256676638
 Animator:
   serializedVersion: 4
@@ -10641,7 +10644,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: efb5bf8bd2dcc25449f22e60dbc8b442, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
+  m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
