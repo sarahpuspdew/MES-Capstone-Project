@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float jumpForce = 10;
     [SerializeField] float gravityModifier;
+    [SerializeField] AudioSource audioSource;
 
     Rigidbody playerRb;
     Animator playerAnim;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
+            JumpingSound();
             isOnGround = false;
             playerAnim.SetTrigger("jump");
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
@@ -77,5 +79,10 @@ public class PlayerController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.z *= -1;
         transform.localScale = theScale;
+    }
+
+    public void JumpingSound()
+    {
+        audioSource.Play();
     }
 }
