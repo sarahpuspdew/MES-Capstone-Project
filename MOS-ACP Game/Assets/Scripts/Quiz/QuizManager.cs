@@ -20,8 +20,6 @@ public class QuizManager : MonoBehaviour
     [SerializeField] TMP_Text questionText;
     [SerializeField] TMP_Text scoreText;
     [SerializeField] int currentQuestion;
-    public AudioClip correctSound;
-    public AudioClip wrongSound;
     int totalQuestions;
     int score;
 
@@ -47,7 +45,7 @@ public class QuizManager : MonoBehaviour
 
     public void Correct()
     {
-        AudioSource.PlayClipAtPoint(correctSound, transform.position);
+        PlayerSFX.instance.PlaySFX(2);
         score += 1;
         questions.RemoveAt(currentQuestion);
         StartCoroutine(WaitForNext());
@@ -55,7 +53,7 @@ public class QuizManager : MonoBehaviour
 
     public void Wrong()
     {
-        AudioSource.PlayClipAtPoint(wrongSound, transform.position);
+        PlayerSFX.instance.PlaySFX(3);
         questions.RemoveAt(currentQuestion);
         StartCoroutine(WaitForNext());
     }

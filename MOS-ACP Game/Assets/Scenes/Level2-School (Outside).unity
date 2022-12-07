@@ -418,7 +418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 14408470}
 --- !u!135 &14408472
 SphereCollider:
@@ -1415,6 +1414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61636984}
   - component: {fileID: 61636985}
+  - component: {fileID: 61636986}
   m_Layer: 5
   m_Name: Volume Slider
   m_TagString: Untagged
@@ -1496,8 +1496,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266497019}
-        m_TargetAssemblyTypeName: BGMusic, Assembly-CSharp
+      - m_Target: {fileID: 61636986}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
         m_MethodName: ChangeVolume
         m_Mode: 1
         m_Arguments:
@@ -1508,6 +1508,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &61636986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61636983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4955431743abf3e4b9ebe564968d7f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &73946012
 GameObject:
   m_ObjectHideFlags: 0
@@ -7245,7 +7257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 639991328}
 --- !u!135 &639991326
 SphereCollider:
@@ -18311,7 +18322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 1721939370}
 --- !u!135 &1721939367
 SphereCollider:

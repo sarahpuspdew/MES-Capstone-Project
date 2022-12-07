@@ -19,8 +19,8 @@ public class BGMusic : MonoBehaviour
         }
     }
 
-    public void ChangeVolume()
+    public void ChangeVolume(Slider slider)
     {
-        AudioListener.volume = volumeSlider.value;
+        AudioListener.volume = slider.value;
     }
 }

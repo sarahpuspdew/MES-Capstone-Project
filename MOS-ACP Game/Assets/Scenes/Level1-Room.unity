@@ -475,6 +475,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1776418173}
     m_Modifications:
+    - target: {fileID: 16462425421477560, guid: 45ca7a84b295ca846bcd6ea76e0edb11, type: 3}
+      propertyPath: transitionTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2028897326965327898, guid: 45ca7a84b295ca846bcd6ea76e0edb11, type: 3}
       propertyPath: m_Name
       value: LevelLoader
@@ -5799,6 +5803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613554306}
   - component: {fileID: 1613554307}
+  - component: {fileID: 1613554308}
   m_Layer: 5
   m_Name: Volume Slider
   m_TagString: Untagged
@@ -5880,8 +5885,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BGMusic, Assembly-CSharp
+      - m_Target: {fileID: 1613554308}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
         m_MethodName: ChangeVolume
         m_Mode: 1
         m_Arguments:
@@ -5892,6 +5897,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1613554308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613554305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4955431743abf3e4b9ebe564968d7f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1693827999
 GameObject:
   m_ObjectHideFlags: 0

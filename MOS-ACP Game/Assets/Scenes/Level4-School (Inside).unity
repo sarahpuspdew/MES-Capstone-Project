@@ -13637,7 +13637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 599967066}
 --- !u!135 &599967063
 SphereCollider:
@@ -19880,7 +19879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 868286902}
 --- !u!135 &868286900
 SphereCollider:
@@ -30140,7 +30138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 1320274518}
 --- !u!212 &1320274517
 SpriteRenderer:
@@ -36764,6 +36761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645902736}
   - component: {fileID: 1645902737}
+  - component: {fileID: 1645902738}
   m_Layer: 5
   m_Name: Volume Slider
   m_TagString: Untagged
@@ -36845,8 +36843,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BGMusic, Assembly-CSharp
+      - m_Target: {fileID: 1645902738}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
         m_MethodName: ChangeVolume
         m_Mode: 1
         m_Arguments:
@@ -36857,6 +36855,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1645902738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645902735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4955431743abf3e4b9ebe564968d7f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1653808562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40427,7 +40437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 1838505839}
 --- !u!135 &1838505837
 SphereCollider:
@@ -41490,7 +41499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 1883464694}
 --- !u!1001 &1886930504
 PrefabInstance:
@@ -44234,7 +44242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3105a9bae71689f4da93767d93b90e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  badgePickUpSound: {fileID: 8300000, guid: 8773868887102484fb629c2d87575142, type: 3}
   infoTrigger: {fileID: 1988312832}
 --- !u!135 &1988312829
 SphereCollider:
@@ -45189,7 +45196,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6fc00ef6e42b0f948ac9f33b7273a3cc, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
