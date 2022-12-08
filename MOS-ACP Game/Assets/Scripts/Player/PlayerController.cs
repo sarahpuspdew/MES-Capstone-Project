@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float jumpForce = 10;
     [SerializeField] float gravityModifier;
-    [SerializeField] AudioSource audioSource;
 
     Rigidbody playerRb;
     Animator playerAnim;
@@ -83,6 +82,6 @@ public class PlayerController : MonoBehaviour
 
     public void JumpingSound()
     {
-        audioSource.Play();
+        PlayerSFX.instance.PlaySFX(0);
     }
 }
