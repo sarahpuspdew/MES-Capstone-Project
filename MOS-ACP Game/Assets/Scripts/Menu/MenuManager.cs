@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using UnityEngine.UI;
-using TMPro;
-using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -14,8 +11,10 @@ public class MenuManager : MonoBehaviour
     {
         #if UNITY_EDITOR
             EditorApplication.ExitPlaymode();
-        #else
+        #elif (UNITY_STANDALONE)
             Application.Quit();
+        #elif (UNITY_WEBGL)
+            Application.OpenURL("about:blank");
         #endif
     }
 }
