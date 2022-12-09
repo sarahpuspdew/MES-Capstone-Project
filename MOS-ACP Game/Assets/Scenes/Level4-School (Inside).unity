@@ -7439,7 +7439,7 @@ MonoBehaviour:
   nameText: {fileID: 386308954}
   infoText: {fileID: 449127733}
   infoPanel: {fileID: 664651152}
-  typingSpeed: 0
+  typingSpeed: 0.01
 --- !u!4 &345921664
 Transform:
   m_ObjectHideFlags: 0
@@ -13803,15 +13803,15 @@ MonoBehaviour:
   prompt:
     name: Microsoft Office PowerPoint
     sentences:
-    - 'Spesialis Microsoft Office: Sertifikasi Rekanan PowerPoint menunjukkan kompetensi
+    - 'Microsoft Office Specialist: Sertifikasi PowerPoint menunjukkan kompetensi
       untuk membuat, mengedit, dan menyempurnakan presentasi dan tayangan slide.'
     - Ujian mencakup kemampuan untuk membuat dan mengelola presentasi, menyisipkan
       dan memformat bentuk dan slide,
     - membuat konten slide, menerapkan transisi dan animasi, serta mengelola beberapa
       presentasi.
     - Contoh presentasi mencakup presentasi penjualan tingkat profesional, pelatihan
-      karyawan, materi instruksional, dan tayangan slide kios.
-    - 'Menggunakan Microsoft Power Point memungkinkan kamu cocok dengan minat yang
+      karyawan, materi instruksional, dan tayangan slideshow.
+    - 'Menggunakan Microsoft PowerPoint memungkinkan kamu cocok dengan minat yang
       meliputi: Skill Komunikasi untuk Bisnis, Creative Thinking, Marketing'
 --- !u!1001 &601425588
 PrefabInstance:
@@ -16372,8 +16372,8 @@ MonoBehaviour:
     - Foto-foto di ruangan tadi membuatku jadi ingin mengikuti lombanya
     - Waktu membaca syarat dan ketentuan untuk mengikuti lomba tadi..
     - ..aku harus mempunyai salah satu sertifikasi dari Adobe Certified Professional
-      untuk illustrator, Indesign, Photoshop.
-    - Dan Microsoft Office Specialist untuk associate Word, Excel, Powerpoint.
+      untuk illustrator, InDesign, Photoshop.
+    - Dan Microsoft Office Specialist untuk associate Word, Excel, PowerPoint.
     - ...
     - Wah, ruangan ini sepertinya lebih sulit dari yang sebelumnya
     - Tapi aku yakin bisa melewati rintangan ini
@@ -20058,15 +20058,15 @@ MonoBehaviour:
   prompt:
     name: Adobe Indesign
     sentences:
-    - 'Adobe Indesign (digunakan untuk print dan publikasi media digital) adalah
+    - 'Adobe InDesign (digunakan untuk print dan publikasi media digital) adalah
       software canggih yang menetapkan standar industri untuk tata letak halaman
       cetak dan digital. '
     - Menawarkan kontrol piksel sempurna pada desain dan tipografi, kamu dapat membuat
       tata letak halaman yang elegan dan menarik untuk media cetak atau digital.
-    - 'Menggunakan Adobe Indesign memungkinkan kamu cocok dengan minat yang meliputi:
+    - 'Menggunakan Adobe InDesign memungkinkan kamu cocok dengan minat yang meliputi:
       Publikasi dan Media, Tulisan Kreatif, dan Editorial'
-    - 'Potensial profesi dari Adobe Photoshop meliputi: Desainer grafis, Desainer
-      web, Desain Direkto, Desainer Template, Desainer Layout'
+    - 'Potensial profesi dari Adobe InDesign meliputi: Desainer grafis, Desainer
+      web, Desain Direktor, Desainer Template, Desainer Layout'
 --- !u!1 &873448424
 GameObject:
   m_ObjectHideFlags: 0
@@ -30412,12 +30412,12 @@ MonoBehaviour:
   prompt:
     name: Adobe Illustrator
     sentences:
-    - Adobe Illustrator (digunakan untuk Desain Grafis & Ilustrasi) Membentuk kemahiran
+    - Adobe Illustrator (digunakan untuk Desain Grafis & Ilustrasi) membentuk kemahiran
       dalam grafik vektor untuk menambahkan  proyek kreatif dan branding
     - 'Menggunakan Adobe Illustrator memungkinkan kamu cocok dengan minat yang meliputi:
       Animasi, Motion Graphics, dan Ilustrasi'
     - 'Potensial profesi dari Adobe Illustrator meliputi: Desain grafis, Ilustrasi,
-      Manajer kreatif, art direction, dan masih banyak lagi!'
+      Manajer kreatif, Art direction, dan masih banyak lagi!'
 --- !u!1001 &1327635174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41206,8 +41206,8 @@ MonoBehaviour:
       digital kamu dengan melampaui apa yang ditangkap oleh kamera.
     - 'Menggunakan Adobe Photoshop memungkinkan kamu cocok dengan minat yang meliputi:
       Desain Grafis, Fotografi, dan Periklanan'
-    - 'Potensial profesi dari Adobe Photoshop meliputi: Desain grafis, art director,
-      desainer logo, dan masih banyak lagi!'
+    - 'Potensial profesi dari Adobe Photoshop meliputi: Desain grafis, Art director,
+      Desainer logo, dan masih banyak lagi!'
 --- !u!1001 &1840244282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45023,17 +45023,17 @@ MonoBehaviour:
     - 'Sertifikasi Microsoft Certified Excel Associate
 
       menunjukkan kompetensi
-      dalam dasar-dasar membuat dan mengelola  Worksheet dan Workbooks, '
+      dalam dasar-dasar membuat dan mengelola Worksheet dan Workbooks, '
     - membuat cells dan ranges, membuat tabel, menerapkan rumus dan fungsi, serta
       membuat bagan dan objek.
     - Ujian mencakup kemampuan untuk membuat dan mengedit workbooks dengan beberapa
       lembar, dan menggunakan elemen grafik untuk merepresentasikan data secara visual.
     - 'Contoh Workbooks mencakup anggaran yang tampak profesional, laporan keuangan,
-      Chart kinerja tim, faktur penjualan, dan Data entry Logs.
+      Chart kinerja tim, faktur penjualan, dan Data entry logs.
 
 '
     - 'Menggunakan Microsoft Excel memungkinkan kamu cocok dengan minat yang meliputi:
-      Data analis, statistics, accounting'
+      Data Analyst, Statistics, dan Accounting'
 --- !u!1001 &1989449685
 PrefabInstance:
   m_ObjectHideFlags: 0

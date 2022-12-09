@@ -60,7 +60,7 @@ public class PromptManager : MonoBehaviour
     public void EndPrompt()
     {
         animator.SetBool("isOpen", false);
-        playerInteractor.interactionPointRadius += 0.5f;
+        playerInteractor.interactionPointRadius = 0.5f;
         //Time.timeScale = 1;
         //promptPanel.localScale = new Vector3(0, 0);
     }

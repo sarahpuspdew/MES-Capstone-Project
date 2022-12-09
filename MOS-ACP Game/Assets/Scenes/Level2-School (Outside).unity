@@ -404,8 +404,8 @@ MonoBehaviour:
     sentences:
     - Kemenangan bukan tujuan utama dalam berkompetisi, namun pengalaman dalam proses
       mengembangkan keterampilan kamu lah yang dapat mengharumkan nama Indonesia.
-    - Persiapkan dirimu yang terbaik pada ajang championship national, menuju world
-      championship !
+    - Persiapkan dirimu yang terbaik pada ajang National Championship, menuju World
+      Championship !
 --- !u!114 &14408471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7256,12 +7256,12 @@ MonoBehaviour:
     - 'Tunjukkan Keahlian Kamu :
 
       Sertifikasi Adobe Certified Professional
-      membuktikan bahwa Anda ahli secara teknis dalam menggunakan berbagai perangkat
-      lunak Adobe.'
+      membuktikan bahwa kamu ahli secara teknis dalam menggunakan berbagai software
+      Adobe.'
     - 'Dapatkan Keunggulan Kompetitif :
 
       Dalam bidang yang semakin kompetitif,
-      kualifikasi yang diakui industri dapat membedakan Anda dari yang lain.'
+      kualifikasi yang diakui industri dapat membedakan kamu dari yang lain.'
     - 'Mengatasi Hambatan :
 
       Kemahiran dalam tools dan perangkat lunak media
@@ -16585,7 +16585,7 @@ MonoBehaviour:
   nameText: {fileID: 1870372832}
   infoText: {fileID: 301260282}
   infoPanel: {fileID: 1534336077}
-  typingSpeed: 0
+  typingSpeed: 0.01
 --- !u!4 &1557852873
 Transform:
   m_ObjectHideFlags: 0

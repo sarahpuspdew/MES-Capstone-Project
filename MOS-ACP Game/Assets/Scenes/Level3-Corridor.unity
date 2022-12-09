@@ -537,6 +537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1024567453}
     m_Modifications:
+    - target: {fileID: 3360918660244900411, guid: a6127c022565ea946804415a1af07b12, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e17fc8e8d8727be4d84de87ddec30fe2, type: 2}
     - target: {fileID: 3865387857548848110, guid: a6127c022565ea946804415a1af07b12, type: 3}
       propertyPath: m_Name
       value: SM_Box_Ground_01
@@ -2805,13 +2809,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414306949}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.2, y: 2.5883992, z: 17.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 966484974}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &418240957
 PrefabInstance:
@@ -7190,8 +7194,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Microsoft Office  Specialist World Championship 2019 \nParticipant Microsoft
-    word 2016 - Safira Azzahra"
+  m_text: "MOS World Championship 2019 \nParticipant Microsoft word 2016 - Safira
+    Azzahra"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
   m_sharedMaterial: {fileID: 5317726572136376820, guid: 300fad5b78df8f447ba49f0c4ce28f30, type: 2}
@@ -8511,6 +8515,7 @@ Transform:
   - {fileID: 1256676634}
   - {fileID: 1197894275}
   - {fileID: 563330073}
+  - {fileID: 414306951}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13177,7 +13182,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1373628441
 GameObject:
@@ -18207,7 +18212,7 @@ MonoBehaviour:
     - Woahhh!!
     - Tempat macam apa ini?
     - Disini juga terdapat banyak foto
-    - Coba mari kita lihat satu persatu
+    - Coba mari kita lihat satu persatu!
     - (tekan E untuk berinteraksi saat muncul tanda seru)
 --- !u!114 &2006376010
 MonoBehaviour:
