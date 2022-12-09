@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589245, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9040,6 +9040,7 @@ Transform:
   - {fileID: 1029443924}
   - {fileID: 1390338606}
   - {fileID: 1451887384}
+  - {fileID: 1328944272}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22366,10 +22367,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e94ef1be2cbf8c4c8d8cbd650bcc2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInteractor: {fileID: 2027120845}
   nameText: {fileID: 0}
   promptText: {fileID: 334414733}
   promptPanel: {fileID: 1511448005}
-  typingSpeed: 0.02
+  typingSpeed: 0.01
   animator: {fileID: 1511448006}
 --- !u!4 &953968465
 Transform:
@@ -30502,7 +30504,7 @@ GameObject:
   - component: {fileID: 1328944270}
   - component: {fileID: 1328944269}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: PolisiTidur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30578,13 +30580,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328944268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.197, y: 0.118, z: 16.907507}
   m_LocalScale: {x: 5.3779197, y: 0.074172, z: 0.093293}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 412572958}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330133837
 PrefabInstance:
@@ -45794,7 +45796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionPoint: {fileID: 873448425}
-  interactionPointRadius: 0.5
+  interactionPointRadius: 0
   interactableMask:
     serializedVersion: 2
     m_Bits: 64

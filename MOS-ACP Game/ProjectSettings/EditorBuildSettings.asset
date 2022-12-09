@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4-School (Inside).unity
     guid: f263989f225194049a5477a0d496a5b5
   - enabled: 1
-    path: Assets/Scenes/Level5-Room.unity
-    guid: 03726a4ffdb34da4aba4ec0952ef21c3
+    path: Assets/Scenes/Level5-Room (wakeup).unity
+    guid: 2d458475a0359e840bd7dc11a49c836a
   - enabled: 1
     path: Assets/Scenes/Level6-Quiz.unity
     guid: e77fe14b9c50f754698a5251da5a3948

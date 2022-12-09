@@ -6,6 +6,7 @@ using TMPro;
 
 public class PromptManager : MonoBehaviour
 {
+    [SerializeField] Interactor playerInteractor;
     [SerializeField] TextMeshProUGUI nameText;
     [SerializeField] TextMeshProUGUI promptText;
     [SerializeField] RectTransform promptPanel;
@@ -59,6 +60,7 @@ public class PromptManager : MonoBehaviour
     public void EndPrompt()
     {
         animator.SetBool("isOpen", false);
+        playerInteractor.interactionPointRadius += 0.5f;
         //Time.timeScale = 1;
         //promptPanel.localScale = new Vector3(0, 0);
     }

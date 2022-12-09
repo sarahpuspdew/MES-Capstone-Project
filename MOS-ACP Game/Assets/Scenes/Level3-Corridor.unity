@@ -8382,10 +8382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e94ef1be2cbf8c4c8d8cbd650bcc2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInteractor: {fileID: 1256676636}
   nameText: {fileID: 0}
   promptText: {fileID: 1077463316}
   promptPanel: {fileID: 1077519166}
-  typingSpeed: 0.02
+  typingSpeed: 0.01
   animator: {fileID: 1077519163}
 --- !u!4 &946974995
 Transform:
@@ -12079,7 +12080,6 @@ MonoBehaviour:
   speed: 5
   jumpForce: 5
   gravityModifier: 1
-  audioSource: {fileID: 1256676641}
 --- !u!114 &1256676636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12093,7 +12093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionPoint: {fileID: 606062714}
-  interactionPointRadius: 0.5
+  interactionPointRadius: 0
   interactableMask:
     serializedVersion: 2
     m_Bits: 64
