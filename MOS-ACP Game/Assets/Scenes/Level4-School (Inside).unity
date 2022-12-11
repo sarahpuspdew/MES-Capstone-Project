@@ -4426,7 +4426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &201017567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4440,7 +4440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -13796,11 +13796,11 @@ MonoBehaviour:
     - 'Microsoft Office Specialist: Sertifikasi PowerPoint menunjukkan kompetensi
       untuk membuat, mengedit, dan menyempurnakan presentasi dan tayangan slide.'
     - Ujian mencakup kemampuan untuk membuat dan mengelola presentasi, menyisipkan
-      dan memformat bentuk dan slide,
-    - membuat konten slide, menerapkan transisi dan animasi, serta mengelola beberapa
-      presentasi.
+      dan memformat bentuk dan slide..
+    - ..membuat konten slide, menerapkan transisi dan animasi, serta mengelola beberapa
+      presentasi
     - Contoh presentasi mencakup presentasi penjualan tingkat profesional, pelatihan
-      karyawan, materi instruksional, dan tayangan slideshow.
+      karyawan, materi instruksional, dan tayangan slideshow
     - 'Menggunakan Microsoft PowerPoint memungkinkan kamu cocok dengan minat yang
       meliputi: Skill Komunikasi untuk Bisnis, Creative Thinking, Marketing'
 --- !u!1001 &601425588
@@ -20046,13 +20046,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prompt:
-    name: Adobe Indesign
+    name: Adobe InDesign
     sentences:
     - 'Adobe InDesign (digunakan untuk print dan publikasi media digital) adalah
       software canggih yang menetapkan standar industri untuk tata letak halaman
       cetak dan digital. '
     - Menawarkan kontrol piksel sempurna pada desain dan tipografi, kamu dapat membuat
-      tata letak halaman yang elegan dan menarik untuk media cetak atau digital.
+      tata letak halaman yang elegan dan menarik untuk media cetak atau digital
     - 'Menggunakan Adobe InDesign memungkinkan kamu cocok dengan minat yang meliputi:
       Publikasi dan Media, Tulisan Kreatif, dan Editorial'
     - 'Potensial profesi dari Adobe InDesign meliputi: Desainer grafis, Desainer
@@ -22357,6 +22357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e94ef1be2cbf8c4c8d8cbd650bcc2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseButton: {fileID: 201017566}
   playerInteractor: {fileID: 2027120845}
   nameText: {fileID: 0}
   promptText: {fileID: 334414733}
@@ -41166,10 +41167,10 @@ MonoBehaviour:
   prompt:
     name: Adobe Photoshop
     sentences:
-    - 'Adobe Photoshop (digunakan untuk Desain Visual) adalah perangkat lunak pengedit
-      gambar profesional, digunakan di seluruh dunia '
-    - oleh fotografer profesional, fotografer amatir, dan desainer. Sempurnakan gambar
-      digital kamu dengan melampaui apa yang ditangkap oleh kamera.
+    - Adobe Photoshop (digunakan untuk Desain Visual) adalah perangkat lunak pengedit
+      gambar profesional, digunakan di seluruh dunia..
+    - ..oleh fotografer profesional, fotografer amatir, dan desainer. Sempurnakan
+      gambar digital kamu dengan melampaui apa yang ditangkap oleh kamera.
     - 'Menggunakan Adobe Photoshop memungkinkan kamu cocok dengan minat yang meliputi:
       Desain Grafis, Fotografi, dan Periklanan'
     - 'Potensial profesi dari Adobe Photoshop meliputi: Desain grafis, Art director,
@@ -42129,8 +42130,8 @@ MonoBehaviour:
     sentences:
     - Sertifikasi Microsoft Certified Word Expert menunjukkan kompetensi dalam membuat
       dan mengelola dokumen profesional untuk berbagai tujuan dan situasi khusus.
-    - 'Ujian mencakup kemampuan untuk menyesuaikan lingkungan Word untuk memenuhi
-      kebutuhan proyek, dan untuk meningkatkan produktivitas. '
+    - Ujian mencakup kemampuan untuk menyesuaikan lingkungan Word untuk memenuhi
+      kebutuhan proyek, dan untuk meningkatkan produktivitas
     - Contoh dokumen tingkat ahli termasuk rencana bisnis, makalah penelitian, buku,
       brosur khusus, dan surat massal
     - 'Menggunakan Microsoft Word memungkinkan kamu cocok dengan minat yang meliputi:
@@ -44989,9 +44990,9 @@ MonoBehaviour:
     - 'Sertifikasi Microsoft Certified Excel Associate
 
       menunjukkan kompetensi
-      dalam dasar-dasar membuat dan mengelola Worksheet dan Workbooks, '
-    - membuat cells dan ranges, membuat tabel, menerapkan rumus dan fungsi, serta
-      membuat bagan dan objek.
+      dalam dasar-dasar membuat dan mengelola Worksheet dan Workbooks..'
+    - ..membuat cells dan ranges, membuat tabel, menerapkan rumus dan fungsi, serta
+      membuat bagan dan objek
     - Ujian mencakup kemampuan untuk membuat dan mengedit workbooks dengan beberapa
       lembar, dan menggunakan elemen grafik untuk merepresentasikan data secara visual.
     - 'Contoh Workbooks mencakup anggaran yang tampak profesional, laporan keuangan,

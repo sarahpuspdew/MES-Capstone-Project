@@ -6,6 +6,7 @@ using TMPro;
 
 public class PromptManager : MonoBehaviour
 {
+    [SerializeField] GameObject pauseButton;
     [SerializeField] Interactor playerInteractor;
     [SerializeField] TextMeshProUGUI nameText;
     [SerializeField] TextMeshProUGUI promptText;
@@ -61,6 +62,7 @@ public class PromptManager : MonoBehaviour
     {
         animator.SetBool("isOpen", false);
         playerInteractor.interactionPointRadius = 0.5f;
+        pauseButton.SetActive(true);
         //Time.timeScale = 1;
         //promptPanel.localScale = new Vector3(0, 0);
     }
